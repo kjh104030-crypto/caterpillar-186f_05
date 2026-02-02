@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { ViewState, Faction, Character, WorldIntel, NovelChapter } from './types';
+import type { ViewState, Faction, Character, WorldIntel, NovelChapter } from './types';
 import { WORLD_INTEL, FACTIONS, NOVEL_CHAPTERS } from './constants';
 import { GlitchText } from './components/GlitchText';
 

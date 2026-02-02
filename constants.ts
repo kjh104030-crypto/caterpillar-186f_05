@@ -1,4 +1,4 @@
-import { Faction, WorldIntel, NovelChapter } from './types';
+import type { Faction, WorldIntel, NovelChapter } from './types';
 
 export const WORLD_INTEL: WorldIntel[] = [
   {
